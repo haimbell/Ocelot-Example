@@ -1,0 +1,16 @@
+﻿{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/users",
+      "DownstreamScheme": "http",
+      "DownstreamHost": "localhost",
+      "DownstreamPort": 5000,
+      "UpstreamPathTemplate": "/posts",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId",
+    "AdministrationPath": "/admin"
+  }
+}
