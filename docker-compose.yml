@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  ocelotdotnetcore1.1-api:
+    image: ocelotdotnetcore1.1-api
+    build:
+      context: ./OcelotDotNetCore1.1-API
+      dockerfile: Dockerfile

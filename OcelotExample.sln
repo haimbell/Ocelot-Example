@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotDotNetCore1.1-API", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotGenerateHash", "OcelotGenerateHash\OcelotGenerateHash.csproj", "{0B4B3540-0C3D-4157-A573-31EC1517D14E}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EE452940-B07D-403E-A8FC-1C739D2DEEBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{0B4B3540-0C3D-4157-A573-31EC1517D14E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B4B3540-0C3D-4157-A573-31EC1517D14E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B4B3540-0C3D-4157-A573-31EC1517D14E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE452940-B07D-403E-A8FC-1C739D2DEEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE452940-B07D-403E-A8FC-1C739D2DEEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE452940-B07D-403E-A8FC-1C739D2DEEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE452940-B07D-403E-A8FC-1C739D2DEEBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
